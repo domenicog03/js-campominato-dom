@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-mini{
+width: 90%;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+
+}
+
+.logo-container{
+    font-size: 40px;
+    font-weight: bold;
+}
+.logo-container img{
+    height: 60px;
+    margin-right: 10px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+}
+main{
+    background-color: rgb(127 , 255, 212);
+}
+#grid {
+    width: 600px;
+    height: 600px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.square {
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 1px solid black;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.squareclicked {
+    background-color: aqua;
+}
+
+
+.inputs {
+    display: flex;
+    align-items: center;
+}
+.inputs button {
+    font-size: 22px;
+    height: 40px;
+    width: 70px;
+    border-radius: 3px;
+}
+.inputs label {
+    font-size: 25px;
+}
+.inputs select {
+    height: 40px;
+    margin: 0 10px;
+    width: 120px;
+    font-size: 25px;
+}
+
+.square.bomb {
+    background-color: red;
+    color: white;
+}
